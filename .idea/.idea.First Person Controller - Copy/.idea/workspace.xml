@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="315e7a0c-4923-4d0d-a5dd-6ad34b3914b8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/guns/gun.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/guns/Railgun.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/towers/tower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/towers/RailTower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/enemies/enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/towers/projectiles/hitscan.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/player/playercontrol.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/playerclasses/Outlaw.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/enemies/groupHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/playerclasses/PlayerClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/guns/hitscangun.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/delay.cs" />
+        <option value="$PROJECT_DIR$/Assets/guns/Railgun.cs" />
+        <option value="$PROJECT_DIR$/Assets/guns/gun.cs" />
+        <option value="$PROJECT_DIR$/Assets/guns/hitscangun.cs" />
+        <option value="$PROJECT_DIR$/Assets/playerclasses/Outlaw.cs" />
+        <option value="$PROJECT_DIR$/Assets/playerclasses/PlayerClass.cs" />
+        <option value="$PROJECT_DIR$/Assets/towers/Tower.cs" />
+        <option value="$PROJECT_DIR$/Assets/towers/projectiles/hitscan.cs" />
+        <option value="$PROJECT_DIR$/Assets/towers/RailTower.cs" />
+        <option value="$PROJECT_DIR$/Assets/enemies/groupHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/enemies/enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/towers/tower.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1h9gqIx05qY4CYLDi2hs6ijLz3a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="315e7a0c-4923-4d0d-a5dd-6ad34b3914b8" name="Default Changelist" comment="" />
+      <created>1599428910496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599428910496</updated>
+      <workItem from="1599428912561" duration="2711000" />
+      <workItem from="1599489457292" duration="1185000" />
+      <workItem from="1599497069187" duration="1736000" />
+      <workItem from="1599573056621" duration="4098000" />
+      <workItem from="1599588916843" duration="1223000" />
+      <workItem from="1599607638856" duration="3938000" />
+      <workItem from="1599654271044" duration="1605000" />
+      <workItem from="1599676202389" duration="449000" />
+      <workItem from="1599689203697" duration="3337000" />
+      <workItem from="1599741943058" duration="3102000" />
+      <workItem from="1599756048202" duration="2073000" />
+      <workItem from="1600170396897" duration="3680000" />
+      <workItem from="1600360195567" duration="3393000" />
+      <workItem from="1600883721653" duration="2240000" />
+      <workItem from="1601206760318" duration="603000" />
+      <workItem from="1601213425365" duration="1750000" />
+      <workItem from="1601227655467" duration="1020000" />
+      <workItem from="1601240570931" duration="766000" />
+      <workItem from="1601286974150" duration="2620000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="WindowStateProjectService">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599430978495">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599430978495" />
+  </component>
+</project>

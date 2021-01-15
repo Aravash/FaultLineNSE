@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\jacob\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\jacob\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_First Person Controller - Copy.1637964819.00" t="ExcludeRecursive" />
+    <e p="C:\Users\jacob\Documents\gameEngineProjects\Unity Projects\First Person Controller - Copy" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="enemies" t="Include">
+          <e p="enemy.cs" t="Include" />
+          <e p="groupHandler.cs" t="Include" />
+        </e>
+        <e p="guns" t="Include">
+          <e p="gun.cs" t="Include" />
+          <e p="hitscangun.cs" t="Include" />
+          <e p="Railgun.cs" t="Include" />
+        </e>
+        <e p="player" t="Include">
+          <e p="camRot.cs" t="Include" />
+          <e p="playercontrol.cs" t="Include" />
+        </e>
+        <e p="playerclasses" t="Include">
+          <e p="Outlaw.cs" t="Include" />
+          <e p="PlayerClass.cs" t="Include" />
+        </e>
+        <e p="towers" t="Include">
+          <e p="projectiles" t="Include">
+            <e p="hitscan.cs" t="Include" />
+          </e>
+          <e p="RailTower.cs" t="Include" />
+          <e p="Tower.cs" t="Include" />
+        </e>
+      </e>
+      <e p="First Person Controller - Copy.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
