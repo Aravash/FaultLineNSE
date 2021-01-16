@@ -38,22 +38,22 @@ public class ability
     
     public float getActiveTime()
     {
-        return current_cooldown_time;
+        return active_time;
     }
     
     public void setActiveTime(float change)
     {
-        current_cooldown_time =  change;
+        active_time =  change;
     }
     
     public float getRemainingActiveTime()
     {
-        return current_cooldown_time;
+        return remaining_active_time;
     }
     
     public void setRemainingActiveTime(float change)
     {
-        current_cooldown_time =  change;
+        remaining_active_time =  change;
     }
     
     public bool isActive()

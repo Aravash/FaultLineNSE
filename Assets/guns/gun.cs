@@ -39,7 +39,7 @@ namespace guns
         
         public int get_clip_size()
         {
-            return current_ammo;
+            return clip_size;
         }
 
         public void set_clip_size(int change)

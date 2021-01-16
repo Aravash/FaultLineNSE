@@ -13,6 +13,9 @@ public class Outlaw : PlayerClass
     {
         Cursor.lockState = CursorLockMode.Locked;
         cam = GetComponent<playercontrol>().cam;
+        PlayerUI.updateUIAmmo(_railgun.get_current_ammo(), _railgun.get_clip_size());
+        PlayerUI.updateUIPortrait(portrait);
+        PlayerUI.updateAbilityIcon(abilityIcon);
     }
 
     private void Update()
@@ -32,6 +35,7 @@ public class Outlaw : PlayerClass
             {
                 Debug.Log("shooting");
                 _railgun.shoot(cam);
+                PlayerUI.updateUIAmmo(_railgun.get_current_ammo(), _railgun.get_clip_size());
                 StartCoroutine(cooldown(_railgun.get_shot_cooldown_time()));
             }
             else reloadGun();
@@ -48,7 +52,8 @@ public class Outlaw : PlayerClass
         //is the ability off cooldown
         if (_flashbang.getCurrentCooldownTime() > 0)
         {
-            _flashbang.setCurrentCooldownTime(_flashbang.getCooldownTime() - Time.deltaTime);
+            Debug.Log(_flashbang.getCurrentCooldownTime());
+            _flashbang.setCurrentCooldownTime(_flashbang.getCurrentCooldownTime() - Time.deltaTime);
             return;
         }
         //are you currently using the ability
@@ -61,6 +66,7 @@ public class Outlaw : PlayerClass
             else
             {
                 _flashbang.setActive(false);
+                PlayerUI.UIShowAbilityBeingUsed(false);
                 _flashbang.setCurrentCooldownTime(_flashbang.getCooldownTime());
             }
 
@@ -70,6 +76,7 @@ public class Outlaw : PlayerClass
         if (Input.GetButtonDown("Ability"))
         {
             //throw the flashbang
+            PlayerUI.UIShowAbilityBeingUsed(true);
             _flashbang.setActive(true);
             _flashbang.setRemainingActiveTime(_flashbang.getActiveTime());
         }
@@ -80,6 +87,7 @@ public class Outlaw : PlayerClass
         Debug.Log("reloading");
         StartCoroutine(cooldown(_railgun.get_reload_time()));
         _railgun.reload();
+        PlayerUI.updateUIAmmo(_railgun.get_current_ammo(), _railgun.get_clip_size());
     }
     
     /*

@@ -7,7 +7,7 @@ public class Flashbang : ability
     public Flashbang()
     { 
         cooldown_time = 8f; 
-        active_time = 0.1f;
+        active_time = 0.3f;
         is_active = false;
     }
     
