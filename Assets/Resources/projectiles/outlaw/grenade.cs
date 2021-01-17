@@ -13,4 +13,9 @@ public class grenade : MonoBehaviour
         Instantiate(gas_cloud, transform.position, Quaternion.identity, null);
         Destroy(gameObject);
     }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        Debug.Log("collided with " + other.gameObject.name);
+    }
 }

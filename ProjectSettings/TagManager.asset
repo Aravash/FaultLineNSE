@@ -18,8 +18,8 @@ TagManager:
   - enemy
   - tower
   - worldProjectile
-  - 
-  - 
+  - bulletsIgnoreMe
+  - teammate
   - 
   - 
   - 

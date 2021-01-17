@@ -18,10 +18,10 @@ public class Flashbang : projectileAbility
     {
         
     }
-
+    
     public override void deployProjectile(Transform point)
     {
         GameObject proj = GameObject.Instantiate(projectile, point.position, Quaternion.identity, null);
-        proj.GetComponent<Rigidbody>().AddForce(point.forward * 30, ForceMode.Acceleration);
+        proj.GetComponent<Rigidbody>().AddForce(point.forward * 30, ForceMode.VelocityChange);
     }
 }

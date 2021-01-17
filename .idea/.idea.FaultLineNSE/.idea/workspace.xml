@@ -12,6 +12,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Resources/projectiles/outlaw/grenade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/PlayerUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/playerclasses/PlayerClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/guns/hitscangun.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/playerclasses/Outlaw.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/guns/gun.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/prefabs/outlaw/GasCloud.cs" root0="FORCE_HIGHLIGHTING" />
@@ -30,8 +31,9 @@
         <option value="$PROJECT_DIR$/Assets/playerclasses/Outlaw.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/PlayerUI.cs" />
         <option value="$PROJECT_DIR$/Assets/prefabs/outlaw/GasCloud.cs" />
-        <option value="$PROJECT_DIR$/Assets/ability/flashbang.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/projectiles/outlaw/grenade.cs" />
+        <option value="$PROJECT_DIR$/Assets/ability/flashbang.cs" />
+        <option value="$PROJECT_DIR$/Assets/guns/hitscangun.cs" />
       </list>
     </option>
   </component>
