@@ -225,6 +225,7 @@
         <e p="guns" t="Include">
           <e p="gun.cs" t="Include" />
           <e p="hitscangun.cs" t="Include" />
+          <e p="projectileGun.cs" t="Include" />
           <e p="Railgun.cs" t="Include" />
         </e>
         <e p="Logs" t="Include">
@@ -235,10 +236,14 @@
           <e p="playercontrol.cs" t="Include" />
         </e>
         <e p="playerclasses" t="Include">
+          <e p="Duality.cs" t="Include" />
           <e p="Outlaw.cs" t="Include" />
           <e p="PlayerClass.cs" t="Include" />
         </e>
         <e p="prefabs" t="Include">
+          <e p="duality" t="Include">
+            <e p="Barrier.cs" t="Include" />
+          </e>
           <e p="outlaw" t="Include">
             <e p="GasCloud.cs" t="Include" />
           </e>
