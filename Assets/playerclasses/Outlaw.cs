@@ -7,10 +7,11 @@ using UnityEngine;
 public class Outlaw : PlayerClass
 {
     private gun _railgun = new Railgun();
-    private ability _flashbang = new Flashbang();
+    private projectileAbility _flashbang;
 
     private void Start()
     {
+        _flashbang = new Flashbang();
         Cursor.lockState = CursorLockMode.Locked;
         cam = GetComponent<playercontrol>().cam;
         PlayerUI.updateUIAmmo(_railgun.get_current_ammo(), _railgun.get_clip_size());
@@ -52,7 +53,7 @@ public class Outlaw : PlayerClass
         //is the ability off cooldown
         if (_flashbang.getCurrentCooldownTime() > 0)
         {
-            Debug.Log(_flashbang.getCurrentCooldownTime());
+            //Debug.Log(_flashbang.getCurrentCooldownTime());
             _flashbang.setCurrentCooldownTime(_flashbang.getCurrentCooldownTime() - Time.deltaTime);
             return;
         }
@@ -78,6 +79,7 @@ public class Outlaw : PlayerClass
             //throw the flashbang
             PlayerUI.UIShowAbilityBeingUsed(true);
             _flashbang.setActive(true);
+            _flashbang.deployProjectile(cam.transform);
             _flashbang.setRemainingActiveTime(_flashbang.getActiveTime());
         }
     }

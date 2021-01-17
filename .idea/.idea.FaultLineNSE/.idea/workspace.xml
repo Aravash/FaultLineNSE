@@ -9,11 +9,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/guns/Railgun.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/projectiles/outlaw/grenade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/PlayerUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/playerclasses/PlayerClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/playerclasses/Outlaw.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/guns/gun.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/prefabs/outlaw/GasCloud.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ability/ability.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ability/projectileAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ability/flashbang.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -21,10 +24,14 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/guns/gun.cs" />
         <option value="$PROJECT_DIR$/Assets/playerclasses/PlayerClass.cs" />
-        <option value="$PROJECT_DIR$/Assets/UI/PlayerUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/ability/flashbang.cs" />
+        <option value="$PROJECT_DIR$/Assets/projectiles/outlaw/grenade.cs" />
+        <option value="$PROJECT_DIR$/Assets/ability/projectileAbility.cs" />
         <option value="$PROJECT_DIR$/Assets/ability/ability.cs" />
         <option value="$PROJECT_DIR$/Assets/playerclasses/Outlaw.cs" />
+        <option value="$PROJECT_DIR$/Assets/UI/PlayerUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/prefabs/outlaw/GasCloud.cs" />
+        <option value="$PROJECT_DIR$/Assets/ability/flashbang.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/projectiles/outlaw/grenade.cs" />
       </list>
     </option>
   </component>
