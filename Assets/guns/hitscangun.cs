@@ -11,7 +11,7 @@ namespace guns
             current_ammo--;
             Transform camtrans = cam.transform;
             // Bit shift the index of the layer (8) to get a bit mask
-            int layerMask = 1 << 8;
+            int layerMask = 1 << 8 | 1 << 12;
 
             // inverts a bitmask.
             layerMask = ~layerMask;

@@ -48,7 +48,7 @@ public class PlayerUI : MonoBehaviour
 
     public static void UIShowAbilityBeingUsed(bool option)
     {
-        Debug.Log("called with variable " + option);
+        //Debug.Log("called with variable " + option);
         if (option)
         {
             _instance.abilityBox.color = Color.yellow;
